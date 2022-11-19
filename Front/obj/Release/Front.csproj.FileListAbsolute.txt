@@ -1,0 +1,158 @@
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Front.exe.config
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Front.exe
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Front.pdb
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Entidades.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Negocios.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\BouncyCastle.Crypto.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.barcodes.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.commons.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.forms.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.io.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.kernel.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.layout.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.pdfa.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.sign.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.styledxmlparser.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.svg.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\LibreriaUsoPDF.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.DependencyInjection.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Logging.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Options.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Primitives.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\System.Buffers.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\System.Diagnostics.DiagnosticSource.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\System.Memory.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\System.Numerics.Vectors.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\System.Threading.Tasks.Extensions.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\System.ValueTuple.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Datos.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\LibreriaBD.dll
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Entidades.pdb
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Negocios.pdb
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\BouncyCastle.Crypto.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.barcodes.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.commons.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.forms.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.io.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.kernel.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.layout.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.pdfa.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.sign.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.styledxmlparser.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\itext.svg.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.DependencyInjection.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Logging.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Options.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Primitives.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\System.Buffers.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\System.Diagnostics.DiagnosticSource.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\System.Memory.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\System.Numerics.Vectors.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\System.Threading.Tasks.Extensions.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\System.ValueTuple.xml
+E:\visual estudio\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Datos.pdb
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Front.csproj.AssemblyReference.cache
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmAgregarLibro.resources
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmAgregarPrestamo.resources
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmAgregarUsuario.resources
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmBusquedaLibro.resources
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmBusquedaUsuario.resources
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmCambiarTitulo.resources
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmConsultaLibro.resources
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmConsultaLibroIndividual.resources
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmConsultaPrestamo.resources
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmConsultaUsuario.resources
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmPrincipal.resources
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.Properties.Resources.resources
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Front.csproj.GenerateResource.cache
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Front.csproj.CoreCompileInputs.cache
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Front.csproj.CopyComplete
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.exe
+E:\visual estudio\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.pdb
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Front.exe.config
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Front.exe
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Front.pdb
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Entidades.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Negocios.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\BouncyCastle.Crypto.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.barcodes.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.commons.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.forms.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.io.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.kernel.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.layout.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.pdfa.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.sign.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.styledxmlparser.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.svg.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Logging.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Options.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Primitives.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\System.Buffers.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\System.Memory.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\System.Numerics.Vectors.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\System.ValueTuple.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Datos.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\LibreriaBD.dll
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Entidades.pdb
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Negocios.pdb
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\BouncyCastle.Crypto.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.barcodes.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.commons.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.forms.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.io.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.kernel.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.layout.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.pdfa.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.sign.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.styledxmlparser.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\itext.svg.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Logging.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Options.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Microsoft.Extensions.Primitives.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\System.Buffers.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\System.Memory.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\System.Numerics.Vectors.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\System.ValueTuple.xml
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\bin\Release\Biblioteca.Datos.pdb
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Front.csproj.AssemblyReference.cache
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Front.csproj.SuggestedBindingRedirects.cache
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmAgregarLibro.resources
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmAgregarPrestamo.resources
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmAgregarUsuario.resources
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmBusquedaLibro.resources
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmBusquedaUsuario.resources
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmCambiarTitulo.resources
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmConsultaLibro.resources
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmConsultaLibroIndividual.resources
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmConsultaPrestamo.resources
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmConsultaUsuario.resources
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.frmPrincipal.resources
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.Properties.Resources.resources
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Front.csproj.GenerateResource.cache
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Front.csproj.CoreCompileInputs.cache
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Front.csproj.CopyComplete
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.exe
+C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Front\obj\Release\Biblioteca.Front.pdb

@@ -1,0 +1,12 @@
+E:\visual estudio\BibliotecaEnCapas\Negocios\bin\Debug\Biblioteca.Negocios.dll
+E:\visual estudio\BibliotecaEnCapas\Negocios\bin\Debug\Biblioteca.Negocios.pdb
+E:\visual estudio\BibliotecaEnCapas\Negocios\bin\Debug\Biblioteca.Datos.dll
+E:\visual estudio\BibliotecaEnCapas\Negocios\bin\Debug\Biblioteca.Entidades.dll
+E:\visual estudio\BibliotecaEnCapas\Negocios\bin\Debug\Biblioteca.Datos.pdb
+E:\visual estudio\BibliotecaEnCapas\Negocios\bin\Debug\Biblioteca.Entidades.pdb
+E:\visual estudio\BibliotecaEnCapas\Negocios\obj\Debug\Negocios.csproj.CopyComplete
+E:\visual estudio\BibliotecaEnCapas\Negocios\obj\Debug\Biblioteca.Negocios.dll
+E:\visual estudio\BibliotecaEnCapas\Negocios\obj\Debug\Biblioteca.Negocios.pdb
+E:\visual estudio\BibliotecaEnCapas\Negocios\bin\Debug\LibreriaBD.dll
+E:\visual estudio\BibliotecaEnCapas\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
+E:\visual estudio\BibliotecaEnCapas\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache

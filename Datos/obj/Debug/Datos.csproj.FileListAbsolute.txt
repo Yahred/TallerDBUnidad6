@@ -1,0 +1,10 @@
+E:\visual estudio\BibliotecaEnCapas\Datos\bin\Debug\Biblioteca.Datos.dll
+E:\visual estudio\BibliotecaEnCapas\Datos\bin\Debug\Biblioteca.Datos.pdb
+E:\visual estudio\BibliotecaEnCapas\Datos\bin\Debug\Biblioteca.Entidades.dll
+E:\visual estudio\BibliotecaEnCapas\Datos\bin\Debug\Biblioteca.Entidades.pdb
+E:\visual estudio\BibliotecaEnCapas\Datos\obj\Debug\Datos.csproj.CopyComplete
+E:\visual estudio\BibliotecaEnCapas\Datos\obj\Debug\Biblioteca.Datos.dll
+E:\visual estudio\BibliotecaEnCapas\Datos\obj\Debug\Biblioteca.Datos.pdb
+E:\visual estudio\BibliotecaEnCapas\Datos\bin\Debug\LibreriaBD.dll
+E:\visual estudio\BibliotecaEnCapas\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+E:\visual estudio\BibliotecaEnCapas\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache

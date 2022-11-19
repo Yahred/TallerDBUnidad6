@@ -1,0 +1,6 @@
+E:\visual estudio\BibliotecaEnCapas\Entidades\bin\Debug\Biblioteca.Entidades.dll
+E:\visual estudio\BibliotecaEnCapas\Entidades\bin\Debug\Biblioteca.Entidades.pdb
+E:\visual estudio\BibliotecaEnCapas\Entidades\obj\Debug\Biblioteca.Entidades.dll
+E:\visual estudio\BibliotecaEnCapas\Entidades\obj\Debug\Biblioteca.Entidades.pdb
+E:\visual estudio\BibliotecaEnCapas\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+E:\visual estudio\BibliotecaEnCapas\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
