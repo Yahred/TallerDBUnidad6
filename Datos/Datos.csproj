@@ -46,9 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
-    <Compile Include="DLibro.cs" />
-    <Compile Include="DPrestamos.cs" />
-    <Compile Include="DUsuario.cs" />
+    <Compile Include="DArticulo.cs" />
+    <Compile Include="DFamilias.cs" />
+    <Compile Include="Login.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

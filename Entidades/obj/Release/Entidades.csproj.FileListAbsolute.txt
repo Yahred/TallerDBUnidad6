@@ -9,3 +9,9 @@ C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Entidades\obj\Release\Entidades.cspr
 C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Entidades\obj\Release\Biblioteca.Entidades.dll
 C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Entidades\obj\Release\Biblioteca.Entidades.pdb
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Entidades\bin\Release\Biblioteca.Entidades.dll
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Entidades\bin\Release\Biblioteca.Entidades.pdb
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Entidades\obj\Release\Entidades.csproj.AssemblyReference.cache
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Entidades\obj\Release\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Entidades\obj\Release\Biblioteca.Entidades.dll
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Entidades\obj\Release\Biblioteca.Entidades.pdb

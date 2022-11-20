@@ -22,3 +22,15 @@ C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Negocios\obj\Release\Negocios.csproj
 C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Negocios\obj\Release\Negocios.csproj.CopyComplete
 C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Negocios\obj\Release\Biblioteca.Negocios.dll
 C:\Users\DrYah\Desktop\DB\BibliotecaEnCapas\Negocios\obj\Release\Biblioteca.Negocios.pdb
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Negocios\bin\Release\Biblioteca.Negocios.dll
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Negocios\bin\Release\Biblioteca.Negocios.pdb
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Negocios\bin\Release\Biblioteca.Datos.dll
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Negocios\bin\Release\Biblioteca.Entidades.dll
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Negocios\bin\Release\LibreriaBD.dll
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Negocios\bin\Release\Biblioteca.Datos.pdb
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Negocios\bin\Release\Biblioteca.Entidades.pdb
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Negocios\obj\Release\Negocios.csproj.AssemblyReference.cache
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Negocios\obj\Release\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Negocios\obj\Release\Negocios.csproj.CopyComplete
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Negocios\obj\Release\Biblioteca.Negocios.dll
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Negocios\obj\Release\Biblioteca.Negocios.pdb

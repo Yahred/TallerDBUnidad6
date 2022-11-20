@@ -8,3 +8,7 @@ E:\visual estudio\BibliotecaEnCapas\Datos\obj\Debug\Biblioteca.Datos.pdb
 E:\visual estudio\BibliotecaEnCapas\Datos\bin\Debug\LibreriaBD.dll
 E:\visual estudio\BibliotecaEnCapas\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
 E:\visual estudio\BibliotecaEnCapas\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Datos\obj\Debug\Biblioteca.Datos.dll
+C:\Users\DrYah\Desktop\DB\InterfazVentas\Datos\obj\Debug\Biblioteca.Datos.pdb

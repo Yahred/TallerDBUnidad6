@@ -41,9 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="NLibro.cs" />
-    <Compile Include="NPrestamo.cs" />
-    <Compile Include="NUsuario.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="NArticulos.cs" />
+    <Compile Include="NFamilias.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
