@@ -57,7 +57,7 @@ BEGIN
     INNER JOIN Familias F ON A.FamID = F.FamID
     WHERE A.ArtNombre LIKE '%' + @Nombre + '%'
     AND @ID IN (0, A.ArtID)
-    AND @Precio IN (0, A.Precio)
+    AND @Precio IN (0, A.ArtPrecio)
     AND @FamID IN (0, F.FamID)
 END
 
