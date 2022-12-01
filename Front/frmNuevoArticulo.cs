@@ -51,8 +51,17 @@ namespace Biblioteca.Front
             if(txtNombre.Text.Length == 0) return false;
             if(txtDesc.Text.Length == 0) return false;
 
-            decimal precio = Decimal.Parse(txtPrecio.Text);
-            if(precio <= 0) return false;
+            try
+            {
+                decimal precio = Decimal.Parse(txtPrecio.Text);
+                if (precio <= 0) return false;
+            }
+            catch
+            {
+                MessageBox.Show("El precio debe ser numérico", "ERROR");
+                return false;
+            }
+
 
             return true;
         } 

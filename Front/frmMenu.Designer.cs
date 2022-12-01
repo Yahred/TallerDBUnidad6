@@ -40,7 +40,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnBuscar = new System.Windows.Forms.Button();
+            this.boxSpinner = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPrincipal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boxSpinner)).BeginInit();
             this.SuspendLayout();
             // 
             // btnNuevo
@@ -78,7 +80,6 @@
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(130, 20);
             this.txtPrecio.TabIndex = 11;
-            this.txtPrecio.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
@@ -150,11 +151,21 @@
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
+            // boxSpinner
+            // 
+            this.boxSpinner.Location = new System.Drawing.Point(756, 25);
+            this.boxSpinner.Name = "boxSpinner";
+            this.boxSpinner.Size = new System.Drawing.Size(32, 35);
+            this.boxSpinner.TabIndex = 20;
+            this.boxSpinner.TabStop = false;
+            this.boxSpinner.Visible = false;
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 506);
+            this.Controls.Add(this.boxSpinner);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -169,8 +180,9 @@
             this.Controls.Add(this.btnNuevo);
             this.Name = "frmMenu";
             this.Text = "frmMenu";
-            this.Load += new System.EventHandler(this.frmMenu_Load);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMenu_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPrincipal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.boxSpinner)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -190,5 +202,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.PictureBox boxSpinner;
     }
 }

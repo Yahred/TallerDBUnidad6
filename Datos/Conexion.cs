@@ -2,7 +2,8 @@
 
 using System.Data.SqlClient;
 using System.Configuration;
-
+using System.Net;
+using System.Security;
 
 namespace Biblioteca.Datos
 {
@@ -44,16 +45,23 @@ namespace Biblioteca.Datos
 
         public static SqlConnection CrearConexion(string username, string password)
         {
-            string strConn = $"Data Source=DESKTOP-F92EKB0; User Id={username}; Password={password}; Initial Catalog=Ventas;Integrated Security=True";
+            string strConn = $"Data Source=DESKTOP-F92EKB0; Initial Catalog=Ventas;";
+            SecureString passwordSecureString = new NetworkCredential(username, password).SecurePassword;
+            passwordSecureString.MakeReadOnly();
             SqlConnection conn;
+            SqlCredential credential = new SqlCredential(username, passwordSecureString);
             try
             {
-                conn = LibreriaBD.UsoBD.ConectaBD(strConn);
+                SqlConnection sqlConnection = new SqlConnection(strConn, credential);
+
+                conn = sqlConnection;
+                conn.Open();
                 _conexion = conn;
                 Console.WriteLine("Conexion establecida exitosamente");
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 conn = null;
                 throw ex;
             }

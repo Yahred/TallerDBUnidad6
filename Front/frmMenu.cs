@@ -7,6 +7,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -17,11 +18,16 @@ namespace Biblioteca.Front
         private const int CELDA_CLAVE = 2;
         private const int EDITAR = 0;
         private const int ELIMINAR = 1;
+        private Thread spinner;
 
         public frmMenu()
         {
             InitializeComponent();
             llenarComboFamilias();
+
+            boxSpinner.ImageLocation = "C:\\Users\\DrYah\\Desktop\\DB\\InterfazVentas\\Assets\\spinner.gif";
+            boxSpinner.SizeMode = PictureBoxSizeMode.StretchImage;
+
             llenarGrid(); 
             DataGridViewButtonColumn botonesEditar = new DataGridViewButtonColumn();
             botonesEditar.HeaderText = "Editar";
@@ -35,6 +41,8 @@ namespace Biblioteca.Front
             botonesEliminar.Text = "Eliminar";
             botonesEliminar.UseColumnTextForButtonValue = true;
             dgvPrincipal.Columns.Add(botonesEliminar);
+
+
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
@@ -43,28 +51,17 @@ namespace Biblioteca.Front
             nuevoArticulo.ShowDialog();
         }
 
-        private void frmMenu_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void llenarGrid()
         {
             try
             {
                 NArticulos articulosN = new NArticulos();
-
-                var grid = articulosN.ObtenerGridArticulos(this.ObtenerFiltros());              
+                var grid = articulosN.ObtenerGridArticulos(this.ObtenerFiltros());
                 dgvPrincipal.DataSource = grid;
-
             }
             catch (Exception ex)
             {
+                Console.WriteLine(ex.Message);
                 MessageBox.Show("Ocurrió un error al llenar la tabla de consulta", "ERROR");
             }
         }
@@ -110,6 +107,7 @@ namespace Biblioteca.Front
 
         private void BtnBuscar_Click(object sender, EventArgs e)
         {
+            this.Refresh();
             this.llenarGrid();
         }
 
@@ -155,7 +153,6 @@ namespace Biblioteca.Front
             {
                 NArticulos articulosN = new NArticulos();
                 Articulo articulo = articulosN.ObtenerArticuloPorID(artID);
-                Console.WriteLine(articulo.Nombre);
                 frmNuevoArticulo frmNuevoArticulo = new frmNuevoArticulo(articulo);
                 frmNuevoArticulo.ShowDialog();
                 llenarGrid();
@@ -165,6 +162,11 @@ namespace Biblioteca.Front
                 Console.WriteLine(ex.Message);  
                 MessageBox.Show("Ocurrió un error");
             }
+        }
+
+        private void frmMenu_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
         }
     }
 }
