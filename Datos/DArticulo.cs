@@ -16,7 +16,7 @@ namespace Biblioteca.Datos
         {
             try
             {
-                SqlCommand comando = new SqlCommand("sp_Articulos", Conexion.Connection);
+                SqlCommand comando = new SqlCommand("sp_Articulos", Conexion.ObtenerConexion());
                 comando.CommandType = CommandType.StoredProcedure;
                 comando.Parameters.AddWithValue("@ArtNombre", DbType.String).Value = articulo.Nombre;
                 comando.Parameters.AddWithValue("@ArtDescripcion", DbType.String).Value = articulo.Descripcion;
@@ -35,6 +35,10 @@ namespace Biblioteca.Datos
                 Console.WriteLine(ex.Message);
                 return 0;
             }
+            finally
+            {
+                Conexion.CerrarConexion();
+            }
         }
 
         public DataTable ObtenerGridArticulos(Articulo filtros)
@@ -44,7 +48,7 @@ namespace Biblioteca.Datos
 
             try
             {
-                SqlCommand comando = new SqlCommand("sp_GridArticulos", Conexion.Connection);
+                SqlCommand comando = new SqlCommand("sp_GridArticulos", Conexion.ObtenerConexion());
                 comando.CommandType = CommandType.StoredProcedure;
                 comando.Parameters.AddWithValue("@ID", filtros.ID);
                 comando.Parameters.AddWithValue("@Nombre", filtros.Nombre);
@@ -59,6 +63,10 @@ namespace Biblioteca.Datos
                 Console.WriteLine(ex.Message);
                 return null;
             }
+            finally
+            {
+                Conexion.CerrarConexion();
+            }
             return table;
         }
 
@@ -70,7 +78,7 @@ namespace Biblioteca.Datos
 
             try
             {
-                SqlCommand comando = new SqlCommand("sp_ObtenerArticuloPorID", Conexion.Connection);
+                SqlCommand comando = new SqlCommand("sp_ObtenerArticuloPorID", Conexion.ObtenerConexion());
                 comando.CommandType = CommandType.StoredProcedure;
                 comando.Parameters.AddWithValue("@ArtID", ID);
                 lector = comando.ExecuteReader();
@@ -90,12 +98,16 @@ namespace Biblioteca.Datos
                                     }
                                 }
                             ).ToList()[0];
-
+                lector.Close();
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
                 return null;
+            }
+            finally
+            {
+                Conexion.CerrarConexion();
             }
             return articulo;
         }
@@ -104,7 +116,7 @@ namespace Biblioteca.Datos
         {
             try
             {
-                SqlCommand comando = new SqlCommand($"DELETE FROM Articulos WHERE ArtID = {id}", Conexion.Connection);
+                SqlCommand comando = new SqlCommand($"DELETE FROM Articulos WHERE ArtID = {id}", Conexion.ObtenerConexion());
                 comando.CommandType = CommandType.Text;
                 comando.ExecuteNonQuery();
             }
@@ -112,6 +124,10 @@ namespace Biblioteca.Datos
             {
                 Console.WriteLine(ex.Message);
                 return false;
+            }
+            finally
+            {
+                Conexion.CerrarConexion();
             }
             return true;
         }

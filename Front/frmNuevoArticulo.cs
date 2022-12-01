@@ -48,8 +48,17 @@ namespace Biblioteca.Front
 
         private bool ValidarCampos()
         {
-            if(txtNombre.Text.Length == 0) return false;
-            if(txtDesc.Text.Length == 0) return false;
+            if(txtNombre.Text.Length == 0)
+            {
+                MessageBox.Show("El Nombre no puede quedar vacío", "ERROR");
+                return false;
+            } 
+                
+            if(txtDesc.Text.Length == 0)
+            {
+                MessageBox.Show("La descripción no puede quedar vacía", "ERROR");
+                return false;
+            };
 
             try
             {
@@ -70,7 +79,6 @@ namespace Biblioteca.Front
         {
             if(!ValidarCampos())
             {
-                MessageBox.Show("datos INVALIDOS", "ERROR");
                 return;
             }
 

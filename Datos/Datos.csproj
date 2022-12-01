@@ -48,7 +48,6 @@
     <Compile Include="Conexion.cs" />
     <Compile Include="DArticulo.cs" />
     <Compile Include="DFamilias.cs" />
-    <Compile Include="Login.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

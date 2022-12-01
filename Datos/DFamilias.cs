@@ -19,7 +19,7 @@ namespace Biblioteca.Datos
           
             try
             {
-                SqlCommand comando = new SqlCommand("SELECT FamID, FamNombre FROM Familias", Conexion.Connection);
+                SqlCommand comando = new SqlCommand("SELECT FamID, FamNombre FROM Familias", Conexion.ObtenerConexion());
                 comando.CommandType = CommandType.Text;
                 lector = comando.ExecuteReader();
                 table.Load(lector);
@@ -31,11 +31,16 @@ namespace Biblioteca.Datos
                                     Nombre = row.Field<string>("famnombre")
                                 }
                             ).ToList();
+                lector.Close();
             }
             catch(Exception ex)
             {
                 Console.WriteLine(ex.Message);
                 return null;
+            }
+            finally
+            {
+                Conexion.CerrarConexion();
             }
             return familias;
         }

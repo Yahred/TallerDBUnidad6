@@ -187,7 +187,6 @@ C:\Users\DrYah\Desktop\DB\InterfazVentas\Front\bin\Release\System.Runtime.Compil
 C:\Users\DrYah\Desktop\DB\InterfazVentas\Front\bin\Release\System.Threading.Tasks.Extensions.dll
 C:\Users\DrYah\Desktop\DB\InterfazVentas\Front\bin\Release\System.ValueTuple.dll
 C:\Users\DrYah\Desktop\DB\InterfazVentas\Front\bin\Release\Biblioteca.Datos.dll
-C:\Users\DrYah\Desktop\DB\InterfazVentas\Front\bin\Release\LibreriaBD.dll
 C:\Users\DrYah\Desktop\DB\InterfazVentas\Front\bin\Release\Biblioteca.Entidades.pdb
 C:\Users\DrYah\Desktop\DB\InterfazVentas\Front\bin\Release\Biblioteca.Negocios.pdb
 C:\Users\DrYah\Desktop\DB\InterfazVentas\Front\bin\Release\BouncyCastle.Crypto.xml

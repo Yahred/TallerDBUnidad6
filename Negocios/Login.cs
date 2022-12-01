@@ -13,7 +13,8 @@ namespace Biblioteca.Negocios
         {
             try
             {
-                Conexion.CrearConexion(username, password);
+                Conexion.LogIn(username, password);
+                Conexion.CerrarConexion();
                 return true;
             }
             catch(Exception ex)

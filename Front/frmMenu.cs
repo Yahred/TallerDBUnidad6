@@ -49,6 +49,7 @@ namespace Biblioteca.Front
         {
             frmNuevoArticulo nuevoArticulo = new frmNuevoArticulo();
             nuevoArticulo.ShowDialog();
+            llenarGrid();
         }
 
         private void llenarGrid()
@@ -107,7 +108,6 @@ namespace Biblioteca.Front
 
         private void BtnBuscar_Click(object sender, EventArgs e)
         {
-            this.Refresh();
             this.llenarGrid();
         }
 
