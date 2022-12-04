@@ -11,19 +11,23 @@ namespace Biblioteca.Datos
     {
         private static string _usuario;
         private static string _password;
+        private static string _servidor;
+        private static string _BD;
         private static SqlConnection sqlConexion;
 
-        public static SqlConnection LogIn(string username, string password)
+        public static SqlConnection LogIn(string username, string password, string servidor, string BD)
         {
             _usuario = username;
             _password = password;
+            _servidor= servidor;
+            _BD = BD;
 
             return ObtenerConexion();
         }
 
         public static SqlConnection ObtenerConexion()
         {
-            string strConn = $"Data Source=DESKTOP-F92EKB0; Initial Catalog=Ventas;";
+            string strConn = $"Data Source={_servidor}; Initial Catalog={_BD};";
             SecureString passwordSecureString = new NetworkCredential(_usuario, _password).SecurePassword;
             passwordSecureString.MakeReadOnly();
             SqlConnection conn;

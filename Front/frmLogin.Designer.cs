@@ -34,11 +34,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnIngresar = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtBD = new System.Windows.Forms.TextBox();
+            this.Servidor = new System.Windows.Forms.Label();
+            this.txtServidor = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtUsuario
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(79, 73);
+            this.txtUsuario.Location = new System.Drawing.Point(84, 205);
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(170, 20);
             this.txtUsuario.TabIndex = 1;
@@ -46,7 +50,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(124, 20);
+            this.label1.Location = new System.Drawing.Point(124, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 13);
             this.label1.TabIndex = 2;
@@ -54,7 +58,7 @@
             // 
             // txtContra
             // 
-            this.txtContra.Location = new System.Drawing.Point(79, 138);
+            this.txtContra.Location = new System.Drawing.Point(84, 270);
             this.txtContra.Name = "txtContra";
             this.txtContra.Size = new System.Drawing.Size(170, 20);
             this.txtContra.TabIndex = 3;
@@ -62,7 +66,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(76, 45);
+            this.label2.Location = new System.Drawing.Point(81, 176);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 4;
@@ -71,7 +75,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(76, 112);
+            this.label3.Location = new System.Drawing.Point(81, 243);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 13);
             this.label3.TabIndex = 5;
@@ -79,7 +83,7 @@
             // 
             // btnIngresar
             // 
-            this.btnIngresar.Location = new System.Drawing.Point(127, 178);
+            this.btnIngresar.Location = new System.Drawing.Point(122, 321);
             this.btnIngresar.Name = "btnIngresar";
             this.btnIngresar.Size = new System.Drawing.Size(75, 39);
             this.btnIngresar.TabIndex = 6;
@@ -87,11 +91,47 @@
             this.btnIngresar.UseVisualStyleBackColor = true;
             this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(81, 110);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(75, 13);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Base de datos";
+            // 
+            // txtBD
+            // 
+            this.txtBD.Location = new System.Drawing.Point(84, 138);
+            this.txtBD.Name = "txtBD";
+            this.txtBD.Size = new System.Drawing.Size(170, 20);
+            this.txtBD.TabIndex = 7;
+            // 
+            // Servidor
+            // 
+            this.Servidor.AutoSize = true;
+            this.Servidor.Location = new System.Drawing.Point(81, 48);
+            this.Servidor.Name = "Servidor";
+            this.Servidor.Size = new System.Drawing.Size(46, 13);
+            this.Servidor.TabIndex = 10;
+            this.Servidor.Text = "Servidor";
+            // 
+            // txtServidor
+            // 
+            this.txtServidor.Location = new System.Drawing.Point(84, 76);
+            this.txtServidor.Name = "txtServidor";
+            this.txtServidor.Size = new System.Drawing.Size(170, 20);
+            this.txtServidor.TabIndex = 9;
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(343, 245);
+            this.ClientSize = new System.Drawing.Size(343, 451);
+            this.Controls.Add(this.Servidor);
+            this.Controls.Add(this.txtServidor);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtBD);
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -113,5 +153,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnIngresar;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtBD;
+        private System.Windows.Forms.Label Servidor;
+        private System.Windows.Forms.TextBox txtServidor;
     }
 }

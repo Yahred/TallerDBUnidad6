@@ -40,9 +40,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnBuscar = new System.Windows.Forms.Button();
-            this.boxSpinner = new System.Windows.Forms.PictureBox();
+            this.btnCerrarSesion = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPrincipal)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boxSpinner)).BeginInit();
             this.SuspendLayout();
             // 
             // btnNuevo
@@ -151,21 +151,35 @@
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.BtnBuscar_Click);
             // 
-            // boxSpinner
+            // btnCerrarSesion
             // 
-            this.boxSpinner.Location = new System.Drawing.Point(756, 25);
-            this.boxSpinner.Name = "boxSpinner";
-            this.boxSpinner.Size = new System.Drawing.Size(32, 35);
-            this.boxSpinner.TabIndex = 20;
-            this.boxSpinner.TabStop = false;
-            this.boxSpinner.Visible = false;
+            this.btnCerrarSesion.Location = new System.Drawing.Point(694, 18);
+            this.btnCerrarSesion.Name = "btnCerrarSesion";
+            this.btnCerrarSesion.Size = new System.Drawing.Size(94, 26);
+            this.btnCerrarSesion.TabIndex = 20;
+            this.btnCerrarSesion.Text = "Cerrar Sesión";
+            this.btnCerrarSesion.UseVisualStyleBackColor = true;
+            this.btnCerrarSesion.Click += new System.EventHandler(this.btnCerrarSesion_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(579, 18);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(94, 26);
+            this.btnSalir.TabIndex = 21;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // frmMenu
             // 
+            this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 506);
-            this.Controls.Add(this.boxSpinner);
+            this.ControlBox = false;
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnCerrarSesion);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -180,9 +194,7 @@
             this.Controls.Add(this.btnNuevo);
             this.Name = "frmMenu";
             this.Text = "frmMenu";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMenu_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPrincipal)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.boxSpinner)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -202,6 +214,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnBuscar;
-        private System.Windows.Forms.PictureBox boxSpinner;
+        private System.Windows.Forms.Button btnCerrarSesion;
+        private System.Windows.Forms.Button btnSalir;
     }
 }

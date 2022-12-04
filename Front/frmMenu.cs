@@ -25,9 +25,6 @@ namespace Biblioteca.Front
             InitializeComponent();
             llenarComboFamilias();
 
-            boxSpinner.ImageLocation = "C:\\Users\\DrYah\\Desktop\\DB\\InterfazVentas\\Assets\\spinner.gif";
-            boxSpinner.SizeMode = PictureBoxSizeMode.StretchImage;
-
             llenarGrid(); 
             DataGridViewButtonColumn botonesEditar = new DataGridViewButtonColumn();
             botonesEditar.HeaderText = "Editar";
@@ -164,9 +161,17 @@ namespace Biblioteca.Front
             }
         }
 
-        private void frmMenu_FormClosed(object sender, FormClosedEventArgs e)
+        private void btnCerrarSesion_Click(object sender, EventArgs e)
+        {
+            frmLogin loginFrm = new frmLogin();
+            loginFrm.Show();
+            this.Close();
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
         {
             System.Windows.Forms.Application.Exit();
         }
+
     }
 }

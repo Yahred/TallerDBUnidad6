@@ -9,17 +9,17 @@ namespace Biblioteca.Negocios
 {
     public class Login
     {
-        public static bool Ingresar(string username, string password)
+        public static bool Ingresar(string username, string password, string servidor, string BD)
         {
             try
             {
-                Conexion.LogIn(username, password);
+                Conexion.LogIn(username, password, servidor, BD);
                 Conexion.CerrarConexion();
                 return true;
             }
             catch(Exception ex)
             {
-                return false;
+                throw ex;
             }
         }
     }

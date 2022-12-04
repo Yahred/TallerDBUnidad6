@@ -16,17 +16,30 @@ namespace Biblioteca.Front
         public frmLogin()
         {
             InitializeComponent();
+            this.txtServidor.Text = "DESKTOP-F92EKB0";
+            this.txtBD.Text = "Ventas";
         }
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
             string usuario = this.txtUsuario.Text;
-            string contra = this.txtContra.Text;   
-            Console.WriteLine(usuario + " " + contra);
+            string contra = this.txtContra.Text;
+            string servidor = this.txtServidor.Text;
+            string BD = this.txtBD.Text;
 
-            if(!Login.Ingresar(usuario, contra))
+            try
             {
-                MessageBox.Show("El Usuario o la contraseña son incorrectos");
+
+                if (!Login.Ingresar(usuario, contra, servidor, BD))
+                {
+                    MessageBox.Show("El Usuario o la contraseña son incorrectos");
+                    return;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
                 return;
             }
 
@@ -34,5 +47,6 @@ namespace Biblioteca.Front
             menu.Show();
             this.Hide();
         }
+
     }
 }
