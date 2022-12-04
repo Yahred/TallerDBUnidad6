@@ -19,7 +19,7 @@ namespace Biblioteca.Datos
           
             try
             {
-                SqlCommand comando = new SqlCommand("SELECT FamID, FamNombre FROM Familias", Conexion.ObtenerConexion());
+                SqlCommand comando = new SqlCommand("EXEC sp_ObtenerFamilias", Conexion.ObtenerConexion());
                 comando.CommandType = CommandType.Text;
                 lector = comando.ExecuteReader();
                 table.Load(lector);

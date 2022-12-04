@@ -132,3 +132,7 @@ BEGIN
         SELECT @ArtID = MAX(ArtID) FROM Articulos
     END
 END
+
+
+CREATE PROC sp_ObtenerFamilias AS
+    SELECT FamID, FamNombre FROM Familias
