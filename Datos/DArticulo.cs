@@ -116,8 +116,9 @@ namespace Biblioteca.Datos
         {
             try
             {
-                SqlCommand comando = new SqlCommand($"DELETE FROM Articulos WHERE ArtID = {id}", Conexion.ObtenerConexion());
-                comando.CommandType = CommandType.Text;
+                SqlCommand comando = new SqlCommand($"sp_EliminarArticulo", Conexion.ObtenerConexion());
+                comando.CommandType = CommandType.StoredProcedure;
+                comando.Parameters.AddWithValue("@ArtID", id);
                 comando.ExecuteNonQuery();
             }
             catch (Exception ex)
