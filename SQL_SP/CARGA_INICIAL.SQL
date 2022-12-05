@@ -60,7 +60,7 @@ BEGIN
     AND @Precio IN (0, A.ArtPrecio)
     AND @FamID IN (0, F.FamID)
 END
-
+GO
 
 IF OBJECT_ID('sp_ObtenerArticuloPorID') IS NOT NULL
     DROP PROCEDURE [dbo].[sp_ObtenerArticuloPorID]
@@ -81,7 +81,7 @@ BEGIN
     INNER JOIN Familias F ON A.FamID = F.FamID
     WHERE A.ArtID = @ArtID
 END
-
+GO
 
 IF(OBJECT_ID('sp_Articulos') IS NOT NULL)
     DROP PROCEDURE [dbo].[sp_Articulos]
@@ -132,7 +132,19 @@ BEGIN
         SELECT @ArtID = MAX(ArtID) FROM Articulos
     END
 END
-
+GO
 
 CREATE PROC sp_ObtenerFamilias AS
+BEGIN
     SELECT FamID, FamNombre FROM Familias
+END
+GO
+
+
+CREATE PROC sp_EliminarArticulo
+    @ArtID INT
+AS
+    BEGIN
+        DELETE FROM Articulos WHERE ArtID = @ArtID
+    END
+GO
